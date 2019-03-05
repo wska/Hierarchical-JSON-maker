@@ -1,6 +1,6 @@
 # Hierarchical-JSON-maker
 A small python script that takes a csv file and converts it into a hierarchical JSON. 
-The script is esentially a modified version of the Python script created by hettmett at https://github.com/hettmett/csv_to_json, with the key difference being that the last column of the CSV file is instead put into an attribute of the final set of children. This was done for the purpose of using the structure to create data visualizations structures based on hierarchical data such as sunburst or treemaps in modules such as D3.js. 
+The script is esentially a modified version of the Python script created by hettmett at https://github.com/hettmett/csv_to_json, with the key difference being that the last column of the CSV file is instead put into an attribute of the final set of children. This was done for the purpose of using the scipt to create data visualizations structures based on hierarchical data such as sunburst or treemaps in modules such as D3.js. 
 
 Example: I used data from https://www.gapminder.org/ to obtain some data about the world population in 2019 for a small visualization project. A small snippet of the CSV file after rearranging the columns could look like this:
 
